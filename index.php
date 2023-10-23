@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css?v=2.1">
+    <link rel="stylesheet" href="css/style.css?v=2.2">
     <script src="https://kit.fontawesome.com/9b8103ef2f.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/2df137ad92.js" crossorigin="anonymous"></script>
     <title>Proyecto</title>
@@ -92,7 +92,7 @@
 <div class="seccion3">
   <div class="container p-5 " >
     <div class="row d-flex align-items-center p-5" id="container-seccion3" >
-      <div class="col-6 text-center ">
+      <div class="col-6 text-center mx-auto">
         <h2 class="titulo2 ">Nuestra Mision</h2>
         <h3>
         NOS MOTIVA,<br>
@@ -103,7 +103,7 @@
 <!--         <h2 class="subtitulo2 cambiar"></h2> -->
     </div>
         
-      <div class="col-6 ">
+      <div class="col-6 mx-auto">
         <p class="parrafo1  text-center">"<b>Realmente creemos</b> que con una estrategia web correcta, comunicación acertada y diseño creativo, tu empresa puede sacar un provecho de internet MUY superior al que imaginas posible."</p>
       </div>
     </div>
@@ -132,21 +132,22 @@
 </div>
 
 <div class="seccion5 ">
-  <div class="container mb-5 mt-5 p-0">
-    <div class="row mb-5 mt-5" >
-      <div class="col-6 d-flex align-items-center">
+  <div class="container mb-5 p-0 seccion5-fondo d-flex align-items-center ">
+    <div class="row mb-5 " >
+      <div class="col-sm-12 col-md-6 d-flex align-items-center mx-auto">
+<!--       .d-sm-none .d-md-block -->
         <div class="container">
         <!-- <h2 class="fs-1 text-center">Diseñamos páginas web<br><span class="cambiar"></span></h2> -->
-        <h2 class="fs-1 text-center">
+        <h2 class="fs-1 text-center titulo">
             Diseñamos páginas web<br>
-            <span class="cambiar"></span>
+            <span class="cambiar subtitulo"></span>
         </h2>
 
 
         </div>
         
       </div>
-      <div class="col-6 ">
+      <div class="col-6 mx-auto">
         <form method="post" class="row">
           <h1 class="text-center">Consultanos ahora</h1>
           <div class="col-12 mb-3">

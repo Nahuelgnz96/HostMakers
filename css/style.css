@@ -188,7 +188,7 @@ body{
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   #container-seccion2{
     padding: 0;
   }
@@ -283,9 +283,18 @@ b{
   object-fit: cover;
   box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.45);
 }
-
 .seccion5{
-    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient( rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/consulta.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.seccion5-fondo{
+    
+    min-height: 100vh;
 }
 .seccion6{
   width: 300vh;

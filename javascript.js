@@ -1,3 +1,6 @@
+document.addEventListener("DOMContentLoaded", function () {
+
+
 const palabras = ["CREATIVAS", "NOVEDOSAS", "EFICIENTES"];
 const cambiarElement = document.querySelector(".cambiar");
 let indice = 0;
@@ -35,4 +38,4 @@ contentType:'html',
 })
 
 
-
+}
